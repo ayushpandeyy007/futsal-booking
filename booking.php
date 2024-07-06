@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/booking.css">
 </head>
 <body>
+  
 	<?php
 // define variables and set to empty values
 $nameErr = $phone_noErr = $emailErr = $dateErr = $timeErr= "";
@@ -67,6 +68,7 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+
 ?>
 	<div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true">
